@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title>Tab Alternate</title>
+</head>
+
+<body>
+
+    <h3>Configuração</h3>
+    <hr>
+    <div id="url-list">
+        <button id="add">Adicionar URL</button>
+    </div>
+    <hr>
+
+    <div id="url-list">
+        <button id="viewLog">Ver Log</button>
+    </div>
+
+    <hr>
+    <h4>URLs adicionadas</h4>
+    <div id="url-container">
+    </div>
+    <hr>
+    <div class="div-2">
+        <label class="div-2-label-abas">
+            Abrir múltiplas abas
+        </label>
+        <input type="checkbox" id="multiTab">
+    </div>
+    <hr>
+    <div class="div-2">
+        <label class="div-2-label-abas">Ciclo de alternância (segundos):</label>
+        <input placeholder="Tempo" id="switchTime" type="number" min="1">
+    </div>
+    <hr>
+    <div class="div-2-2">
+        <label>Iniciar</label>
+        <label class="switch">
+            <input class="input-tempo" type="checkbox" id="enabled">
+            <span class="slider"></span>
+        </label>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
