@@ -14,9 +14,7 @@
   "permissions": [
     "tabs",
     "storage",
-    "alarms",
-    "scripting",
-    "service_worker"
+    "alarms"
   ],
 
   "background": {
